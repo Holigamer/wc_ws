@@ -154,7 +154,6 @@ void esp8266_handle_receive()
 	}
 }
 
-// Very complex requesting time from google through module.
 int esp8266_request_time_from_google()
 {
 	int ret = 0;
